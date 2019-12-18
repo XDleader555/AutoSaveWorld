@@ -1,4 +1,5 @@
 <project name="AutoSaveWorld" default="build" basedir=".">
+    <import file="nbproject/build-impl.xml"/>
 
 	<path id="libs">
 		<fileset dir="libs" includes="**/*.jar" />
